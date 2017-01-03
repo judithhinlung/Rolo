@@ -1,1 +1,1 @@
-# rolo
+This is a modified version of the rolodex suite of programs found in Unix Shell Programming, 3rd edition, by Stephen G. Kochan and Patrick Wood.  A PDF copy of the text can be found at  http://coltech.vnu.edu.vn/httt/components/com_joomlaboard/uploaded/files/Unix_Shell_Programming_3rd_Ed.pdf .
