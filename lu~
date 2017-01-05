@@ -12,7 +12,7 @@ else
       #
       while read line
       do
-               . display "$line"
+               display "$line"
       done < /tmp/matches$$
 fi
 rm /tmp/matches$$

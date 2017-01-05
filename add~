@@ -7,7 +7,7 @@ first=
 entry=
 while true 
 do
-      echo ">>"
+      echo ">>" \c
       read line
       if [ -z "$first" ]
       then

@@ -9,7 +9,7 @@ grep "$name" $PHONEBOOK > /tmp/matches$$
 if [ ! -s /tmp/matches$$ ]
 then
     echo "I can't find $name in the phone book"
-    exit 1
+    break
 fi
 #
 # Display matching entries one at a time and confirm change

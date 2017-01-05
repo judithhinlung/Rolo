@@ -26,9 +26,11 @@ do
 done < /tmp/matches$$
 if [ "$answer" = y ]
 then
-    grep -v "^$line$" $PHONEBOOK > /tmp/phonebook$$
-    mv /tmp/phonebook$$ $PHONEBOOK
+    if grep -v "^$line$" $PHONEBOOK > /tmp/phonebook$$
+    then
+	mv /tmp/phonebook$$ $PHONEBOOK
 	echo "Selected entry has been removed"
+    fi
 else
     echo "Entry not removed"
 fi
